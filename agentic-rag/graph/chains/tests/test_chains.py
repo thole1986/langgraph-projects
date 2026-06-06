@@ -1,9 +1,7 @@
 from pprint import pprint
-
 from dotenv import load_dotenv
 
 load_dotenv()
-
 
 from graph.chains.generation import generation_chain
 from graph.chains.hallucination_grader import (GradeHallucinations,
